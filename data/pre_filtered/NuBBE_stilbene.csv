@@ -1,0 +1,8 @@
+SMILES
+COC(=O)c1ccc(/C(=C\c2ccc(OC)c(OC)c2)C(=O)O)cc1O
+COc1cc(/C=C/c2ccccc2)cc(OC)c1CC=C(C)C
+Oc1cc(O)cc(/C=C/c2ccc(O)c(O)c2)c1
+Oc1ccc(/C=C/c2cc(O)c3c(c2)O[C@@H](c2ccc(O)cc2)[C@@H]3c2cc(O)cc(O)c2)cc1
+Oc1ccc(/C=C/c2cc(O)c3c(c2)O[C@H](c2ccc(O)cc2)[C@H]3c2cc(O)c3c(c2)O[C@H](c2ccc(O)cc2)[C@H]3c2cc(O)cc(O)c2)cc1
+Oc1ccc(/C=C/c2cc(O)c3c(c2)O[C@H](c2ccc(O)cc2O)[C@H]3c2cc(O)cc(O)c2)cc1
+COc1ccc(/C=C/c2cc(OC)c(CC=C(C)C)c(OC)c2)cc1
