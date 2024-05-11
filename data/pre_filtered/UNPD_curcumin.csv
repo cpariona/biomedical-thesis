@@ -1,4 +1,4 @@
-SMILES
+smiles
 COc1ccc(cc1OC)C(C=CC)c2cc(C=CC(=O)CC(=O)C=Cc3ccc(O)c(OC)c3)cc(OC)c2O
 COc1cc(C=CC(=O)C([C@H]2C=C(C)[C@H]3C[C@@H]2[C@@H](C)C[C@H]3C=C(C)C)C(=O)C=Cc4ccc(O)c(OC)c4)ccc1O
 COc1cc(C=CC(=O)CC(=O)C=Cc2ccc(O)c(OC)c2)ccc1O
