@@ -1,0 +1,40 @@
+MODEL 1
+REMARK VINA RESULT:      -4.1      0.000      0.000
+REMARK  Name = *****
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_7  and  C_8
+REMARK    3  A    between atoms: C_8  and  O_9
+REMARK    4  A    between atoms: O_9  and  C_10
+REMARK    5  A    between atoms: C_10  and  C_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     104.173 125.648  82.683  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   8
+ATOM      2  C   UNL     1     103.553 127.118  80.152  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1     103.983 125.651  80.099  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1     105.421 125.529  79.651  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1     106.261 124.594  80.122  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1     105.857 123.547  81.121  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1     104.344 123.485  81.339  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1     103.709 124.889  81.426  0.00  0.00    +0.000 C 
+ENDBRANCH   1   8
+BRANCH   1   9
+ATOM      9  O   UNL     1     103.049 125.899  83.527  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1     102.768 127.293  83.635  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1     101.309 127.544  83.346  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1     100.709 128.764  83.691  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      99.368 129.009  83.389  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      98.614 128.040  82.729  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      99.200 126.828  82.371  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     100.541 126.582  82.672  0.00  0.00    +0.000 A 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4
+ENDMDL

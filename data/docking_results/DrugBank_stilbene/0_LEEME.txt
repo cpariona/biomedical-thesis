@@ -1,0 +1,7 @@
+Mensaje:
+Parse error on line 15 in file "lig_opt_DrugBank_stilbene_4.pdbqt": Unknown or inappropriate tag
+
+En las moleculas
+lig_opt_DrugBank_stilbene_4.pdbqt
+lig_opt_DrugBank_stilbene_6.pdbqt
+

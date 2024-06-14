@@ -1,0 +1,14 @@
+receptor = protein.pdbqt  
+
+size_x = 28 
+size_y = 76 
+size_z = 26 
+ 
+center_x = 95.85 
+center_y = 93.547 
+center_z = 83.417 
+
+exhaustiveness = 60 
+num_modes = 1 
+ 
+seed = 1234

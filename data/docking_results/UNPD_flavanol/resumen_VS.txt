@@ -1,0 +1,3 @@
+./lig_opt_UNPD_flavanol_1.pdbqt.log    -5.3
+./lig_opt_UNPD_flavanol_2.pdbqt.log    -4.7
+./lig_opt_UNPD_flavanol_3.pdbqt.log    -4.7

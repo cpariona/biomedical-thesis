@@ -1,0 +1,38 @@
+REMARK  Name = *****
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_11
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1       2.906  -0.525  -1.245  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       4.251  -0.550  -1.694  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1       5.140   0.342  -1.207  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1       6.409   0.274  -1.658  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       6.871  -0.639  -2.586  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       5.959  -1.555  -3.084  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       4.640  -1.511  -2.633  0.00  0.00    +0.000 A 
+ATOM      8 CL   UNL     1       7.466   1.446  -0.982  0.00  0.00    +0.000 Cl
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM      9  C   UNL     1       1.485  -0.201   0.748  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1       2.763   0.210   0.025  0.00  0.00    +0.000 C 
+ENDBRANCH   1  10
+BRANCH   1  11
+ATOM     11  C   UNL     1       2.003  -0.077  -2.326  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C   UNL     1       1.301  -1.230  -3.019  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1       0.928  -2.395  -2.330  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1       0.242  -3.422  -2.981  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -0.094  -3.292  -4.327  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1       0.254  -2.136  -5.022  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1       0.944  -1.110  -4.372  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 4

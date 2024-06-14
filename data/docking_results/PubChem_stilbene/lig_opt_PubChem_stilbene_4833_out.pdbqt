@@ -1,0 +1,37 @@
+MODEL 1
+REMARK VINA RESULT:      -4.9      0.000      0.000
+REMARK  Name = *****
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_6  and  N_7
+REMARK    2  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     103.977 124.849  81.677  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     104.224 123.746  82.495  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     105.022 122.699  82.046  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     105.581 122.745  80.778  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     105.343 123.839  79.958  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     104.544 124.891  80.402  0.00  0.00    +0.000 A 
+ATOM      7  F   UNL     1     104.345 125.929  79.578  0.00  0.00    +0.000 F 
+ATOM      8  F   UNL     1     105.886 123.885  78.733  0.00  0.00    +0.000 F 
+ATOM      9  F   UNL     1     106.351 121.737  80.346  0.00  0.00    +0.000 F 
+ATOM     10  F   UNL     1     105.249 121.645  82.841  0.00  0.00    +0.000 F 
+ATOM     11  F   UNL     1     103.691 123.681  83.724  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  13
+ATOM     12  N   UNL     1     101.833 125.880  82.136  0.00  0.00    +0.000 NA
+ATOM     13  C   UNL     1     103.124 125.923  82.208  0.00  0.00    +0.000 C 
+BRANCH  12  19
+ATOM     14  C   UNL     1      99.756 127.074  82.553  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      99.076 128.172  83.086  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      99.790 129.177  83.737  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1     101.176 129.094  83.855  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1     101.852 127.993  83.322  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1     101.145 126.972  82.681  0.00  0.00    +0.000 A 
+ATOM     20 CL   UNL     1      98.956 130.531  84.393  0.00  0.00    +0.000 Cl
+ENDBRANCH  12  19
+ENDBRANCH   1  13
+TORSDOF 2
+ENDMDL

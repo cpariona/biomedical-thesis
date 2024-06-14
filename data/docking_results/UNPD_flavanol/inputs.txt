@@ -1,0 +1,3 @@
+lig_opt_UNPD_flavanol_1.pdbqt
+lig_opt_UNPD_flavanol_2.pdbqt
+lig_opt_UNPD_flavanol_3.pdbqt

@@ -1,0 +1,16 @@
+lig_opt_DrugBank_stilbene_10.pdbqt
+lig_opt_DrugBank_stilbene_11.pdbqt
+lig_opt_DrugBank_stilbene_12.pdbqt
+lig_opt_DrugBank_stilbene_13.pdbqt
+lig_opt_DrugBank_stilbene_14.pdbqt
+lig_opt_DrugBank_stilbene_15.pdbqt
+lig_opt_DrugBank_stilbene_16.pdbqt
+lig_opt_DrugBank_stilbene_1.pdbqt
+lig_opt_DrugBank_stilbene_2.pdbqt
+lig_opt_DrugBank_stilbene_3.pdbqt
+lig_opt_DrugBank_stilbene_4.pdbqt
+lig_opt_DrugBank_stilbene_5.pdbqt
+lig_opt_DrugBank_stilbene_6.pdbqt
+lig_opt_DrugBank_stilbene_7.pdbqt
+lig_opt_DrugBank_stilbene_8.pdbqt
+lig_opt_DrugBank_stilbene_9.pdbqt

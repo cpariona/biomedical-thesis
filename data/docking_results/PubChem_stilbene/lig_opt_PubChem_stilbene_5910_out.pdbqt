@@ -1,0 +1,29 @@
+MODEL 1
+REMARK VINA RESULT:      -4.6      0.000      0.000
+REMARK  Name = *****
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_9  and  C_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      96.280 119.512  82.931  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      97.745 120.017  82.897  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      98.494 118.864  82.188  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      97.736 117.651  82.765  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      96.371 118.134  82.236  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      96.618 118.390  80.755  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      98.085 118.893  80.722  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      97.631 117.769  79.998  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      97.979 116.799  79.177  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   9  10
+ATOM     10  C   UNL     1      97.072 115.757  78.679  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      96.275 114.977  79.526  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      95.406 114.015  79.003  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      95.317 113.827  77.626  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      96.094 114.605  76.771  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      96.961 115.567  77.294  0.00  0.00    +0.000 A 
+ENDBRANCH   9  10
+TORSDOF 1
+ENDMDL
