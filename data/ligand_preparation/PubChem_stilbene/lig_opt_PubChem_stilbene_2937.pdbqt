@@ -1,0 +1,32 @@
+REMARK  Name = *****
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: N_7  and  C_8
+REMARK    3  A    between atoms: C_11  and  S_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       0.560  -5.010  -0.223  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -0.058  -5.705  -1.265  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -0.404  -7.051  -1.113  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -0.128  -7.716   0.085  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       0.513  -7.029   1.119  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       0.858  -5.683   0.963  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  C   UNL     1       0.015  -2.799  -0.047  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1       0.918  -3.666  -0.382  0.00  0.00    +0.000 NA
+BRANCH   7  12
+ATOM      9  C   UNL     1       1.283   0.673  -0.584  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1       0.045   1.066  -0.127  0.00  0.00    +0.000 A 
+ATOM     11  S   UNL     1      -0.947  -0.271   0.269  0.00  0.00    +0.000 S 
+ATOM     12  C   UNL     1       0.273  -1.386  -0.169  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1       1.415  -0.746  -0.608  0.00  0.00    +0.000 A 
+ENDBRANCH   7  12
+ENDBRANCH   1   8
+BRANCH   4  14
+ATOM     14  S   UNL     1      -0.550  -9.431   0.294  0.00  0.00    +0.000 S 
+ATOM     15  H   UNL     1      -1.161  -9.888  -0.832  0.00  0.00    +0.000 HD
+ENDBRANCH   4  14
+TORSDOF 3

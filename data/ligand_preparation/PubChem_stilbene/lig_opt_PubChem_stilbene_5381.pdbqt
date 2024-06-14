@@ -1,0 +1,40 @@
+REMARK  Name = *****
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_4  and  O_8
+REMARK    3  A    between atoms: O_8  and  C_9
+REMARK    4  A    between atoms: C_9  and  O_11
+REMARK    5  A    between atoms: O_11  and  C_12
+REMARK    6  A    between atoms: C_12  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1      -1.509   2.374   0.682  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   5
+ATOM      2  C   UNL     1       2.593  -0.340   0.208  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1       1.121  -0.138   0.004  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       0.506   1.050   0.419  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -0.867   1.216   0.235  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -1.653   0.202  -0.307  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -1.046  -0.988  -0.704  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       0.332  -1.158  -0.548  0.00  0.00    +0.000 A 
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  C   UNL     1      -1.208   3.507  -0.050  0.00  0.00    +0.000 C 
+ATOM     10  O   UNL     1      -0.490   3.586  -1.035  0.00  0.00    +0.000 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      -1.855   4.557   0.524  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C   UNL     1      -1.616   5.852  -0.068  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1      -0.616   6.701   0.739  0.00  0.00    +0.000 C 
+ATOM     14 CL   UNL     1      -1.219   6.957   2.409  0.00  0.00    +0.000 Cl
+ATOM     15 CL   UNL     1       0.996   5.932   0.828  0.00  0.00    +0.000 Cl
+ATOM     16 CL   UNL     1      -0.437   8.307  -0.042  0.00  0.00    +0.000 Cl
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 5
