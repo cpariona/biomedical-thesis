@@ -1,0 +1,36 @@
+MODEL 1
+REMARK VINA RESULT:      -4.7      0.000      0.000
+REMARK  Name = *****
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_4  and  S_8
+REMARK    3  A    between atoms: S_8  and  N_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  S   UNL     1     102.721 126.673  83.665  0.00  0.00    +0.000 S 
+ATOM      2  O   UNL     1     102.413 125.201  83.718  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   UNL     1     103.334 127.121  82.208  0.00  0.00    +0.000 N 
+ATOM      4  C   UNL     1     103.139 126.425  81.045  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     103.801 127.099  80.044  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     104.468 128.209  80.636  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1     105.304 129.221  80.124  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1     105.845 130.174  80.991  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1     105.571 130.128  82.354  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1     104.741 129.138  82.889  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     104.185 128.190  82.009  0.00  0.00    +0.000 A 
+ENDBRANCH   1   3
+BRANCH   1  15
+ATOM     12  C   UNL     1      99.447 130.849  83.926  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      99.668 129.426  83.505  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     100.902 128.802  83.736  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1     101.110 127.467  83.363  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     100.058 126.745  82.790  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      98.822 127.353  82.574  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      98.627 128.687  82.932  0.00  0.00    +0.000 A 
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL

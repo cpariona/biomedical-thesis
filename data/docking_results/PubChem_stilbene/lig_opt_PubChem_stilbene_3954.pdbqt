@@ -1,0 +1,38 @@
+REMARK  Name = *****
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_7  and  C_10
+REMARK    4  A    between atoms: C_10  and  C_11
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       3.321  -0.904  -0.888  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       2.565  -1.760  -1.695  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       3.195  -2.762  -2.443  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       4.588  -2.916  -2.407  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       5.338  -2.059  -1.592  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       4.712  -1.062  -0.840  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  C   UNL     1       1.205   0.365  -0.121  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1       2.698   0.172  -0.062  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1       3.401   0.885   0.652  0.00  0.00    +0.000 OA
+ENDBRANCH   1   8
+BRANCH   4  10
+ATOM     10  C   UNL     1       5.275  -4.013  -3.189  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1       4.979  -3.971  -4.693  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C   UNL     1       5.773  -5.010  -5.447  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1       5.401  -6.361  -5.401  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1       6.147  -7.324  -6.083  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1       7.270  -6.946  -6.817  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1       7.648  -5.606  -6.870  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1       6.904  -4.642  -6.186  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+TORSDOF 4

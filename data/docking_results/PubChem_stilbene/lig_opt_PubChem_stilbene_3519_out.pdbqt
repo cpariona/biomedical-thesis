@@ -1,0 +1,40 @@
+MODEL 1
+REMARK VINA RESULT:      -4.5      0.000      0.000
+REMARK  Name = *****
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_7
+REMARK    2  A    between atoms: C_7  and  C_8
+REMARK    3  A    between atoms: C_7  and  S_10
+REMARK    4  A    between atoms: S_10  and  C_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      87.766  70.856  85.678  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   5
+ATOM      2  C   UNL     1      84.285  72.381  87.762  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      84.357  72.434  86.373  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      85.483  71.940  85.711  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      86.560  71.394  86.432  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      86.466  71.339  87.834  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      85.337  71.831  88.492  0.00  0.00    +0.000 A 
+ENDBRANCH   1   5
+BRANCH   1   8
+ATOM      8  C   UNL     1      88.187  71.724  84.502  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      89.262  72.303  84.366  0.00  0.00    +0.000 OA
+ENDBRANCH   1   8
+BRANCH   1  10
+ATOM     10  S   UNL     1      89.162  70.398  86.777  0.00  0.00    +0.000 S 
+BRANCH  10  11
+ATOM     11  C   UNL     1      89.034  68.621  86.815  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      90.066  67.836  86.290  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      89.981  66.442  86.321  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      88.867  65.832  86.894  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      87.844  66.603  87.442  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      87.932  67.997  87.408  0.00  0.00    +0.000 A 
+ATOM     17 CL   UNL     1      88.757  64.115  86.930  0.00  0.00    +0.000 Cl
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 4
+ENDMDL
