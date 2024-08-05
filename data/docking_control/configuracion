@@ -1,0 +1,23 @@
+#Archivo de configuracion 
+
+#Opciones de entrada 
+receptor = protein.pdbqt 
+#flex = [residuos flexibles en el receptor en formato pdbqt] 
+#Configuracion del espacio de búsqueda 
+#Tamaño de la caja: bxf, byf, bzf 
+size_x = 28 
+size_y = 76 
+size_z = 26 
+#Centro de la caja: bxi, byi, bzi 
+center_x = 95.85 
+center_y = 93.547 
+center_z = 83.417 
+#Opciones de Salida 
+#log = 
+
+#Otras opciones 
+#cpu = 8 
+exhaustiveness = 60 
+num_modes = 1 
+#energy_range = 
+seed = 1234
