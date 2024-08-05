@@ -14,7 +14,7 @@ read rtf card append
 ! and 50 mean some basic validation is recommended; penalties higher than
 ! 50 indicate poor analogy and mandate extensive validation/optimization.
 
-RESI control_       1.000 ! param penalty=  20.500 ; charge penalty= 180.261
+RESI CTL4           1.000 ! param penalty=  20.500 ; charge penalty= 180.261
 !RING * 6 C2 C3 C4 C5 C6 C7
 GROUP            ! CHARGE   CH_PENALTY Z   EL   NB NBE RNG1 TYP RNG2 TYP RNG3 TYP
 ATOM N      NG3P2  -0.421 !  180.261   7   N    4  4  
@@ -109,25 +109,25 @@ read param card flex append
 ! 50 indicate poor analogy and mandate extensive validation/optimization.
 
 BONDS
-CG301  NG3P2   200.00     1.4900 ! control_ , from CG314 NG3P2, penalty= 9
+CG301  NG3P2   200.00     1.4900 ! CTL4 , from CG314 NG3P2, penalty= 9
 
 ANGLES
-CG331  CG301  NG3P2    67.70    110.00 ! control_ , from CG331 CG314 NG3P2, penalty= 9
-CG2R61 CG311  CG324    51.80    107.50 ! control_ , from CG2R61 CG321 CG314, penalty= 4.6
-CG301  NG3P2  CG324    40.00    115.20 ! control_ , from CG324 NG3P2 CG324, penalty= 20.5
-CG301  NG3P2  HGP2     30.00    110.80   27.00   2.07400 ! control_ , from CG324 NG3P2 HGP2, penalty= 20.5
+CG331  CG301  NG3P2    67.70    110.00 ! CTL4 , from CG331 CG314 NG3P2, penalty= 9
+CG2R61 CG311  CG324    51.80    107.50 ! CTL4 , from CG2R61 CG321 CG314, penalty= 4.6
+CG301  NG3P2  CG324    40.00    115.20 ! CTL4 , from CG324 NG3P2 CG324, penalty= 20.5
+CG301  NG3P2  HGP2     30.00    110.80   27.00   2.07400 ! CTL4 , from CG324 NG3P2 HGP2, penalty= 20.5
 
 DIHEDRALS
-CG2R61 CG2R61 CG311  CG324      0.6500  2   180.00 ! control_ , from CG2R61 CG2R61 CG321 CG324, penalty= 4
-NG3P2  CG301  CG331  HGA3       0.2000  3     0.00 ! control_ , from NG3P2 CG314 CG331 HGA3, penalty= 9
-CG331  CG301  NG3P2  CG324      0.1000  3     0.00 ! control_ , from CG331 CG314 NG3P2 CG324, penalty= 9
-CG331  CG301  NG3P2  HGP2       0.1000  3     0.00 ! control_ , from CG331 CG314 NG3P2 HGP2, penalty= 9
-CG2R61 CG311  CG324  NG3P2      0.2000  3     0.00 ! control_ , from CG2R61 CG321 CG324 NG3P1, penalty= 4.6
-CG2R61 CG311  CG324  HGA2       0.0000  3     0.00 ! control_ , from CG2R61 CG311 CG321 HGA2, penalty= 1
-CG311  CG324  NG3P2  CG301      0.4000  1     0.00 ! control_ , from CG311 CG324 NG3P2 CG324, penalty= 20.5
-CG311  CG324  NG3P2  CG301      0.2500  2     0.00 ! control_ , from CG311 CG324 NG3P2 CG324, penalty= 20.5
-CG311  CG324  NG3P2  CG301      0.6000  3     0.00 ! control_ , from CG311 CG324 NG3P2 CG324, penalty= 20.5
-HGA2   CG324  NG3P2  CG301      0.1000  3     0.00 ! control_ , from HGA2 CG324 NG3P2 CG324, penalty= 20.5
+CG2R61 CG2R61 CG311  CG324      0.6500  2   180.00 ! CTL4 , from CG2R61 CG2R61 CG321 CG324, penalty= 4
+NG3P2  CG301  CG331  HGA3       0.2000  3     0.00 ! CTL4 , from NG3P2 CG314 CG331 HGA3, penalty= 9
+CG331  CG301  NG3P2  CG324      0.1000  3     0.00 ! CTL4 , from CG331 CG314 NG3P2 CG324, penalty= 9
+CG331  CG301  NG3P2  HGP2       0.1000  3     0.00 ! CTL4 , from CG331 CG314 NG3P2 HGP2, penalty= 9
+CG2R61 CG311  CG324  NG3P2      0.2000  3     0.00 ! CTL4 , from CG2R61 CG321 CG324 NG3P1, penalty= 4.6
+CG2R61 CG311  CG324  HGA2       0.0000  3     0.00 ! CTL4 , from CG2R61 CG311 CG321 HGA2, penalty= 1
+CG311  CG324  NG3P2  CG301      0.4000  1     0.00 ! CTL4 , from CG311 CG324 NG3P2 CG324, penalty= 20.5
+CG311  CG324  NG3P2  CG301      0.2500  2     0.00 ! CTL4 , from CG311 CG324 NG3P2 CG324, penalty= 20.5
+CG311  CG324  NG3P2  CG301      0.6000  3     0.00 ! CTL4 , from CG311 CG324 NG3P2 CG324, penalty= 20.5
+HGA2   CG324  NG3P2  CG301      0.1000  3     0.00 ! CTL4 , from HGA2 CG324 NG3P2 CG324, penalty= 20.5
 
 IMPROPERS
 

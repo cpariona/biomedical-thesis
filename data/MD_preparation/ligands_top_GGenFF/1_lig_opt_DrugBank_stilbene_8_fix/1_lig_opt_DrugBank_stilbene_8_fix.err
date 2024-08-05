@@ -59,7 +59,7 @@ readmol2 warning: renaming non-unique atom N to N4 .
 readmol2 warning: renaming non-unique atom N to N5 .
 readmol2 warning: renaming non-unique atom N to N6 .
 readmol2 warning: renaming non-unique atom N to N7 .
-Now processing molecule DrugBank ...
+Now processing molecule TOP1 ...
 ringper debug: stored 7-membered ring in stage 2.
 ringper debug: stored 6-membered ring in stage 2.
 ringper debug: stored 6-membered ring in stage 2.

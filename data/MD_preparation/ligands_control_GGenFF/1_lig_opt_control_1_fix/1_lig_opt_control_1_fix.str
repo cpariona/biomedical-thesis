@@ -14,7 +14,7 @@ read rtf card append
 ! and 50 mean some basic validation is recommended; penalties higher than
 ! 50 indicate poor analogy and mandate extensive validation/optimization.
 
-RESI control_      -1.000 ! param penalty=   0.000 ; charge penalty=   0.000
+RESI CTL1          -1.000 ! param penalty=   0.000 ; charge penalty=   0.000
 !RING * 6 C1 C2 C3 C4 C5 C6
 GROUP            ! CHARGE   CH_PENALTY Z   EL   NB NBE RNG1 TYP RNG2 TYP RNG3 TYP
 ATOM C1     CG2R61 -0.115 !    0.000   6   C    3  4   6    1  
