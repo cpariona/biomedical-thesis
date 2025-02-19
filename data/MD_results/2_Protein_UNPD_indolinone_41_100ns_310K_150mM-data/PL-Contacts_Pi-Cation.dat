@@ -1,4 +1,4 @@
-  # Frame#   Residue#      Chain    ResName  LigandFragment        Distance
+  #_Frame#   Residue#      Chain    ResName  LigandFragment        Distance
          1         97          _        LYS        L-FRAG_0           5.770 
          1         97          _        LYS        L-FRAG_0           5.050 
          3         97          _        LYS        L-FRAG_0           6.320 

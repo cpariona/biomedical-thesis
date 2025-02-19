@@ -1,4 +1,4 @@
-  # Frame#   Residue#      Chain    ResName   AtomName  LigandFragment      LigandAtom 
+  #_Frame#   Residue#      Chain    ResName   AtomName  LigandFragment      LigandAtom 
          0        101          _        GLY          O        L-FRAG_0           O2041 
          5        100          _        LEU          O        L-FRAG_0           O2041 
          5         95          _        VAL          O        L-FRAG_0           O2041 

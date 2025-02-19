@@ -1,4 +1,4 @@
-  # Frame#   Residue#      Chain    ResName  LigandFragment 
+  #_Frame#   Residue#      Chain    ResName  LigandFragment 
          0         94          _        PHE        L-FRAG_1 
          3         94          _        PHE        L-FRAG_0 
          5         94          _        PHE        L-FRAG_0 

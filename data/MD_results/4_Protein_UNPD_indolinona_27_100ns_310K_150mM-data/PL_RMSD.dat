@@ -1,4 +1,4 @@
-  # frame#    Prot_CA   Prot_Backbone  Prot_Sidechain  Prot_All_Heavy Lig_wrt_Protein  Lig_wrt_Ligand
+  #_frame#    Prot_CA   Prot_Backbone  Prot_Sidechain  Prot_All_Heavy Lig_wrt_Protein  Lig_wrt_Ligand
          0      0.000           0.000           0.000           0.000           0.000           0.000
          1      4.819           4.826           5.460           5.121           6.866           0.788
          2      6.412           6.362           6.993           6.735           7.598           0.922

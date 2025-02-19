@@ -1,4 +1,4 @@
-  # Frame#   Residue#      Chain    ResName   AtomName  LigandFragment      LigandAtom 
+  #_Frame#   Residue#      Chain    ResName   AtomName  LigandFragment      LigandAtom 
          0         96          _        LYS        HZ1        L-FRAG_1           N2019 
          2         98          _        ASP        OD2        L-FRAG_0           O2040 
          3         96          _        LYS        HZ3        L-FRAG_1           N2019 

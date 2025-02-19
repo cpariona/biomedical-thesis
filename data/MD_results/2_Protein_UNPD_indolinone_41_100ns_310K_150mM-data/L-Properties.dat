@@ -1,4 +1,4 @@
-  Frame #         RMSD         rGyr      intraHB        MolSA         SASA          PSA
+  Frame_#         RMSD         rGyr      intraHB        MolSA         SASA          PSA
         0        0.000        3.456            0      307.794      272.986      162.221
         1        0.182        3.446            0      305.356      274.458      159.148
         2        0.145        3.464            0      305.888      322.012      159.119
