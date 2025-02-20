@@ -1,0 +1,14 @@
+  # Frame#   Residue#      Chain    ResName  LigandFragment        Distance       Type
+         1         94          _        PHE        L-FRAG_0           5.060        e2f
+        12         94          _        PHE        L-FRAG_0           5.120        e2f
+        17        125          _        TYR        L-FRAG_1           5.230        e2f
+        31         94          _        PHE        L-FRAG_0           5.370        e2f
+        99         39          _        TYR        L-FRAG_1           4.280        f2f
+       101         39          _        TYR        L-FRAG_1           3.520        f2f
+       102         39          _        TYR        L-FRAG_1           4.160        f2f
+       103         39          _        TYR        L-FRAG_1           3.730        f2f
+       143         39          _        TYR        L-FRAG_1           5.480        e2f
+       145         39          _        TYR        L-FRAG_1           3.740        f2f
+       146         39          _        TYR        L-FRAG_1           4.030        f2f
+       147         39          _        TYR        L-FRAG_1           4.220        f2f
+       650         94          _        PHE        L-FRAG_1           5.340        e2f

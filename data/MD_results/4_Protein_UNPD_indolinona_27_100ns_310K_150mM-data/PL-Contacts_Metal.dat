@@ -1,0 +1,7 @@
+  # Frame#            Type            Site       MetalSite   Distance
+       460       prot-side    _:GLU_57:OE1       prot-side      2.470 
+       460          ligand  L-FRAG_0:O2039          ligand      2.360 
+       897       prot-side   _:ASP_121:OD2       prot-side      2.330 
+       897          ligand  L-FRAG_0:O2039          ligand      2.430 
+       906       prot-side   _:ASP_121:OD1       prot-side      2.420 
+       906          ligand  L-FRAG_0:O2039          ligand      2.680 
