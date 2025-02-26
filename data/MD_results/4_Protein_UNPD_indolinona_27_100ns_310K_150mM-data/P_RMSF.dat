@@ -1,4 +1,4 @@
-# Residue#      Chain    ResName LigandContact         CA   Backbone  Sidechain  All_Heavy   B-factor
+#_Residue#      Chain    ResName LigandContact         CA   Backbone  Sidechain  All_Heavy   B-factor
          0          _      MET_1          No         19.23         n/a         n/a         n/a       0.000
          1          _      ASP_2          No         17.83         n/a         n/a         n/a         n/a
          2          _      VAL_3          No         16.78         n/a         n/a         n/a         n/a
