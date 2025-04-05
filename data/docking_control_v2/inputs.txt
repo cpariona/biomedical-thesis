@@ -1,0 +1,5 @@
+lig_opt_control_1.pdbqt
+lig_opt_control_2.pdbqt
+lig_opt_control_3.pdbqt
+lig_opt_control_4.pdbqt
+lig_opt_control_5.pdbqt
